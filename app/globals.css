@@ -1,0 +1,5 @@
+html, body { margin: 0; height: 100%; background: #131722; overflow: hidden; }
+.terminal { display: flex; flex-direction: column; height: 100dvh; }
+.tape { flex: none; height: 46px; border-bottom: 1px solid #2a2e39; }
+.chart { flex: 1; min-height: 0; }
+.tradingview-widget-container, .tradingview-widget-container__widget { height: 100%; width: 100%; }
