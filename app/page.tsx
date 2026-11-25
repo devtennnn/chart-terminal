@@ -2,7 +2,7 @@ import TradingViewWidget from "./components/TradingViewWidget";
 
 const WATCHLIST = [
   "OANDA:XAUUSD", "OANDA:XAGUSD", "FX:EURUSD", "FX:GBPUSD", "FX:USDJPY",
-  "TVC:DXY", "OANDA:SPX500USD", "OANDA:NAS100USD", "BITSTAMP:BTCUSD", "BITSTAMP:ETHUSD",
+  "FX:AUDUSD", "OANDA:SPX500USD", "OANDA:NAS100USD", "BITSTAMP:BTCUSD", "BITSTAMP:ETHUSD",
 ];
 
 // Full TradingView chart: drawing tools, 100+ indicators, timeframes, chart types, live forex/crypto data.
@@ -31,7 +31,7 @@ const TAPE = {
     { proName: "FX:EURUSD", title: "EUR/USD" },
     { proName: "FX:GBPUSD", title: "GBP/USD" },
     { proName: "FX:USDJPY", title: "USD/JPY" },
-    { proName: "TVC:DXY", title: "DXY" },
+    { proName: "FX:AUDUSD", title: "DXY" },
     { proName: "BITSTAMP:BTCUSD", title: "Bitcoin" },
   ],
   showSymbolLogo: true,
