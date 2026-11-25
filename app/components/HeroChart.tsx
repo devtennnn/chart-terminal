@@ -4,11 +4,11 @@ export default function HeroChart() {
   let seed = 7;
   const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
   const bars: { o: number; c: number; h: number; l: number }[] = [];
-  let p = 250;
+  let p = 330;
   for (let i = 0; i < n; i++) {
-    const drift = i < 18 ? 2.2 : i < 28 ? -1.6 : -3.4;
-    const o = p, c = p - drift * (0.6 + rnd()) * 2 + (rnd() - 0.5) * 14;
-    bars.push({ o, c, h: Math.min(o, c) - rnd() * 10, l: Math.max(o, c) + rnd() * 10 });
+    const drift = i < 14 ? 3 : i < 24 ? -2.5 : 2.6;
+    const o = p, c = p - drift * (0.6 + rnd()) * 3 + (rnd() - 0.5) * 16;
+    bars.push({ o, c, h: Math.min(o, c) - rnd() * 12, l: Math.max(o, c) + rnd() * 12 });
     p = c;
   }
   let e = bars[0].c;
