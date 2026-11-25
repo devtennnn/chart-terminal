@@ -31,7 +31,7 @@ const TAPE = {
     { proName: "FX:EURUSD", title: "EUR/USD" },
     { proName: "FX:GBPUSD", title: "GBP/USD" },
     { proName: "FX:USDJPY", title: "USD/JPY" },
-    { proName: "FX:AUDUSD", title: "DXY" },
+    { proName: "OANDA:XAGUSD", title: "Silver" },
     { proName: "BITSTAMP:BTCUSD", title: "Bitcoin" },
   ],
   showSymbolLogo: true,
